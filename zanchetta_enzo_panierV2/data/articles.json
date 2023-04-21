@@ -1,0 +1,16 @@
+{
+    "categorie":"Matériel informatique",
+    "items":
+    [
+        {"prix":"2500","nom":"PC DELL"},
+        {"prix":"400","nom":"Ecran Acer"},
+        {"prix":"30","nom":"Souris Logitech"},
+        {"prix":"1500","nom":"PC ACER"},
+        {"prix":"40","nom":"Cable USB"},
+        {"prix":"29","nom":"Souris Razer"},
+        {"prix":"80","nom":"Clavier Omen"},
+        {"prix":"139","nom":"Casque Corsair"},
+        {"prix":"1800","nom":"PC MSI"},
+        {"prix":"450","nom":"Chaise Quersus"}
+    ]
+}

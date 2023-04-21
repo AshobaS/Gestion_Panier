@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/css.css">
+    <title>Panier</title>
+</head>
+<body>
+    <div id="page">
+        <div id="produit">
+            <h1>Gestion du panier</h1>
+            <p>
+                <span>
+                <label for="code">Code : </label>
+                </span>
+                <input type="select" id="code" list="data" placeholder="Selectionner Produit">
+                <datalist id="data">
+                </datalist>
+            </p>
+            <p>
+                <label for="quantite">Quantité : </label>
+                <input type="number" id="quantite" min="1" max="100" placeholder="Quantité">
+            </p>
+            <p>
+                <label for="prixuni">Prix unitaire : </label>
+                <input type="text" id="prixuni" disabled>
+                €
+            </p>
+            <p>
+                <button type="button" id="valider">Ajouter au panier</button>
+            </p>
+        </div>
+        <div id="panier">
+            <h1>Contenu du panier</h1>
+            <table id="tableau">
+                <colgroup>
+                    <col style="width:20%">
+                    <col style="width:20%">
+                    <col style="width:20%">
+                    <col style="width:20%">
+                    <col style="width:20%">
+                </colgroup>
+                <tr>
+                    <th>Code</th>
+                    <th>QTE</th>
+                    <th>Prix unitaire</th>
+                    <th>Prix de la ligne</th>
+                    <th>Supprimer</th>
+                </tr>
+            </table>
+            <p>
+                <label for="prix">Prix : </label>
+                <input type="text" id="prix" disabled>
+                €
+            </p>
+            <p>
+                <button type="button" id="effacer">Vider le panier</button>
+            </p>
+        </div>
+    </div>
+    <script type="module" src="../javascript/javascript.js"></script>
+</body>
+</html>

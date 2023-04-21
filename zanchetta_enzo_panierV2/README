@@ -1,0 +1,14 @@
+Ce dossier contient les fichiers portant sur la phase 1.2 de l'étude de cas portant sur la gestion d'un panier
+
+Ce dossier comprend:
+    -Un dossier html comprenant fichier HTML contenant le squelette du site
+    -Un dossier css contenant deux fichiers CSS:
+        -L'un permettant de remettre à zéro les spécifités du navigateur
+        -L'autre permettant de styliser le site
+    -Un dossier javascript comprenant cinq fichiers JavaScript:
+        -Un fichier contenant une classe Produit et les fonctions associées
+        -Un fichier contenant une classe Ligne et les fonctions associées
+        -Un fichier contenant une classe Panier et les fonctions associées
+        -Un fichier contenant les fonctions créant les Listeners ainsi que les fonctions appelées
+        -Un fichier contenant les requêtes Ajax et les traitements associées
+    -Un dossier data comprenant un fichier json contenant les données sur les articles

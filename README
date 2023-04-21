@@ -1,0 +1,5 @@
+Dossiers contenant les fichiers pour l'étude de cas portant sur la gestion du panier
+
+Le dossier zanchetta_enzo_panierV1 contient les fichiers codant la phase 1.1 avec un code entre 1 et 10000 et un prix aléatoire.
+
+Le dossier zanchetta_enzo_panierV2 contient les fichers codant la phase 1.2 avec les codes produits et les prix associés issus d'un fichier json.
